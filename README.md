@@ -25,6 +25,6 @@ Functionality:
 Lucas Perez. This dude.
 
 ## License
-I have to think about it, don't I? Probably MIT. Come on. 
+MIT License. Enjoy.
 
 
