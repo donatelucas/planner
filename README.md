@@ -2,7 +2,7 @@
 A front-end, minimalistic planner
 
 ## How to Use it
-Download the project and double-click the .html file. Easy peasy. 
+Download the project and double-click the .html file. Easy peasy.
 
 ## ToDo
 
@@ -18,13 +18,11 @@ Design:
 
 Functionality:
 - Adjust input cells to amount of text fetched from input
-
-##
+- Add SAVE button to the sidebar for users to save their work, and send
+the content to the localStorage
 
 ## Author
 Lucas Perez. This dude.
 
 ## License
 MIT License. Enjoy.
-
-

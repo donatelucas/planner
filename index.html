@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>CESA - Planner</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="two-thirds column" style="margin-top: 5%">
+        <h4>Prepare your Day - 10/24/2018</h4>
+            <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Hour</th>
+                    <th>Activity</th>
+                    <th>Note</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="notes"></td></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="notes"></td></td>
+                </tr>
+                <tr>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="activity"></td>
+                    <td class="cell" onClick="insert(this);" ><input text ="" id="input" class="notes"></td></td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+                <div class="one-third column" style="margin-top: 5%">
+                    <h4>Automatic Options</h4>
+                    <h6>Click in one and then click on a cell to fill</h6>
+                    <code>Study for</code>
+                    <code>Prepare food</code>
+                    <code>Do Laundry</code>
+                    <code>Go to sleep</code>
+                    <code>Call home</code>
+                    <code>Meditate</code>
+                    <code>Exercise</code>
+                    <div class="save-button" onClick="save();"><input class="button-primary" type="submit" value="SAVE"></div>
+                </div>
+
+
+            </div>
+        </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Read Scripts
+  __________________________________________________ -->
+
+
+<script src="scripts/insert.js" charset="utf-8"></script>
+</body>
+</html>
