@@ -1,6 +1,9 @@
 # Planner
 A front-end, minimalistic planner
 
+## How to Use it
+Download the project and double-click the .html file. Easy peasy. 
+
 ## ToDo
 
 Server:
@@ -15,3 +18,13 @@ Design:
 
 Functionality:
 - Adjust input cells to amount of text fetched from input
+
+##
+
+## Author
+Lucas Perez. This dude.
+
+## License
+I have to think about it, don't I? Probably MIT. Come on. 
+
+
