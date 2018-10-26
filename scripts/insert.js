@@ -1,10 +1,10 @@
 console.log("See ya, Space Cowboy");
 
-
-var entries = [];
+entries = [];
+storage = window.localStorage;
 
 // Returns last element input in cell
-function fetch() {
+function fetch(id) {
     lastEntry = document.getElementById('input').value;
     entries.push(lastEntry);
     console.log(lastEntry);
@@ -18,4 +18,10 @@ function returnEntries() {
 }
 
 // Saves all cell values on localStorage;
-function save();
+function save() {
+    storage.setItem(date, entries);
+}
+
+function readStorage() {
+    return storage.getItem(date);
+}
