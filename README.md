@@ -1,6 +1,8 @@
 # Planner
 A front-end, minimalistic planner
 
+![This is a TicTacToe](https://github.com/donatelucas/planner/blob/master/FirstScreenshot.png)
+
 ## How to Use it
 Download the project and double-click the .html file. Easy peasy.
 
