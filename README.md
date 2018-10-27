@@ -24,7 +24,7 @@ Functionality:
 the content to the localStorage
 
 ## Author
-Lucas Perez. This dude.
+Lucas Perez
 
 ## License
 MIT License. Enjoy.

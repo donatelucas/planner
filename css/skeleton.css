@@ -284,6 +284,9 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 
+input:hover {
+    background-color: #eff1f4;
+}
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
