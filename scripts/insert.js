@@ -19,9 +19,13 @@ function returnEntries() {
 
 // Saves all cell values on localStorage;
 function save() {
-    storage.setItem(date, entries);
+    for (i = 0; i < entries.length; i++) {
+        storage.setItem(i, entries[i]);
+    }
 }
 
 function readStorage() {
-    return storage.getItem(date);
+    for (i = 0; i < entries.length; i++) {
+        console.log(storage.getItem(i));
+    }
 }
