@@ -29,3 +29,17 @@ function readStorage() {
         console.log(storage.getItem(i));
     }
 }
+
+/* Editable textform function example
+Link: https://collectiveidea.com/blog/archives/2017/06/13/adjustable-form-text-area-with-the-contenteditable-tag
+
+$(document).ready(function() {
+  $(document).on("submit", "form#new_expandable", function(e) {
+    e.preventDefault();
+
+    var contents = $(".expandable-input").html();
+
+    $('input#expandable').val(contents);
+    this.submit();
+  });
+}); */

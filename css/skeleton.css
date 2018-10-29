@@ -224,6 +224,14 @@ input[type="button"].button-primary:focus {
 
 
 /* Forms
+
+    Example of contenteditable
+    .expandable-input {
+        min-height: 18px;
+        height: auto;
+        width: 200px;
+        border: 1px solid;
+    }
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
 input[type="number"],
