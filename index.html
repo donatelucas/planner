@@ -55,7 +55,13 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
+                    <td class="cell" onClick="fetch(this);" >
+                        <form id="new_expandable">
+                            <div contenteditable="true" class="expandable-input"></div>
+                            <input type="hidden" id="expandable"></input>
+                            <input type="submit"></input>
+                        </form>
+                    </td>
                     <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
                     <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td>
                 </tr>

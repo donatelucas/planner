@@ -233,6 +233,13 @@ input[type="button"].button-primary:focus {
         border: 1px solid;
     }
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.expandable-input {
+    min-height: 18px;
+    height: auto;
+    width: 200px;
+    border: 1px solid;
+}
+
 input[type="email"],
 input[type="number"],
 input[type="search"],
