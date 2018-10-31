@@ -44,7 +44,7 @@
   <div class="container">
     <div class="row">
       <div class="two-thirds column" style="margin-top: 5%">
-        <h4>Prepare your Day - 10/24/2018</h4>
+        <h4>Prepare your Day - </h4><h4 id="date" onload="displayDate();"></h4>
             <table class="u-full-width">
             <thead>
                 <tr>
@@ -55,32 +55,14 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="cell" onClick="fetch(this);" >
-                        <form id="new_expandable">
-                            <div contenteditable="true" class="expandable-input" id="hour"></div>
-                            <input type="hidden" id="expandable"></input>
-                            <input type="submit"></input>
-                        </form>
-                    </td>
-                    <td class="cell" onClick="fetch(this);" >
-                        <form id="new_expandable">
-                            <div contenteditable="true" class="expandable-input" id="activity"></div>
-                            <input type="hidden" id="expandable"></input>
-                            <input type="submit"></input>
-                        </form>
-                    </td>
-                    <td class="cell" onClick="fetch(this);" >
-                        <form id="new_expandable">
-                            <div contenteditable="true" class="expandable-input" id="note"></div>
-                            <input type="hidden" id="expandable"></input>
-                            <input type="submit"></input>
-                        </form>
-                    </td>
+                    <td class="cell" onClick="fetch(this);" ><textarea></textarea></td>
+                    <td class="cell" onClick="fetch(this);" ><textarea></textarea></td>
+                    <td class="cell" onClick="fetch(this);" ><textarea></textarea></td>
                 </tr>
                 <tr>
-                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
-                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="activity"></td>
-                    <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="notes"></td>
+                    <td class="cell" onClick="fetch(this);" ><textarea></textarea></td>
+                    <td class="cell" onClick="fetch(this);" ><textarea></textarea></td>
+                    <td class="cell" onClick="fetch(this);" ><textarea></textarea></td>
                 </tr>
                 <tr>
                     <td class="cell" onClick="fetch(this);" ><input text ="" id="input" class="hours"></td>
@@ -162,6 +144,7 @@
   __________________________________________________ -->
 
 
+<script src="scripts/stretchy.min.js" async></script>
 <script src="scripts/insert.js" charset="utf-8"></script>
 </body>
 </html>

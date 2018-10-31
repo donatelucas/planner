@@ -253,8 +253,18 @@ input[type="button"].button-primary:focus {
 }
 
 #note {
-    widows: 20rem;
+    width: 15rem;
 }
+textarea {
+    min-height: 10px;
+    height:10px;
+}
+
+textarea:hover {
+    background-color: #eff1f4;
+    border-radius: 2px;
+}
+
 
 input[type="email"],
 input[type="number"],
@@ -263,7 +273,6 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
-textarea,
 select {
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
@@ -285,7 +294,7 @@ textarea {
      -moz-appearance: none;
           appearance: none; }
 textarea {
-  min-height: 65px;
+  min-height: 10px;
   padding-top: 6px;
   padding-bottom: 6px; }
 input[type="email"]:focus,
