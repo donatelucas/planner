@@ -237,7 +237,23 @@ input[type="button"].button-primary:focus {
     min-height: 18px;
     height: auto;
     width: 200px;
-    border: 1px solid;
+    border: none;
+}
+.expandable-input:hover {
+    background-color: #eff1f4;
+    border-radius: 2px;
+}
+
+#hour {
+    width: 10rem;
+}
+
+#activity {
+    width: 20rem;
+}
+
+#note {
+    widows: 20rem;
 }
 
 input[type="email"],
