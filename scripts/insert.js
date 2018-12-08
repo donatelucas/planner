@@ -1,8 +1,5 @@
 console.log("See ya, Space Cowboy");
 
-entries = [];
-storage = window.localStorage;
-
 function getDate() {
     var d = new Date();
     var date = d.toString();
@@ -14,35 +11,6 @@ function displayDate() {
     var str = date.substring(0,15);
     document.getElementById("date").innerHTML = str;
     return str;
-}
-
-function getWeekday(weekday) {
-    switch (weekday) {
-        case 0:
-            return "Sunday";
-            break;
-        case 1:
-            return "Monday";
-            break;
-        case 2:
-            return "Tuesday";
-            break;
-        case 3:
-            return "Wednesday";
-            break;
-        case 4:
-            return "Thursday";
-            break;
-        case 5:
-            return "Friday";
-            break;
-        case 6:
-            return "Saturday";
-            break;
-        default:
-            return "¯\_(ツ)_/¯";
-            break;
-    }
 }
 
 // Returns last element input in cell

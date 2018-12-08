@@ -255,15 +255,7 @@ input[type="button"].button-primary:focus {
 #note {
     width: 15rem;
 }
-textarea {
-    min-height: 10px;
-    height:10px;
-}
 
-textarea:hover {
-    background-color: #eff1f4;
-    border-radius: 2px;
-}
 
 
 input[type="email"],

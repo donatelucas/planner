@@ -1,0 +1,15 @@
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 15px;
+    height: 40px;
+}
+
+textarea:hover {
+    background-color: #eff1f4;
+    border-radius: 2px;
+}
+
+textarea:hour {
+    width: 50%;
+}
