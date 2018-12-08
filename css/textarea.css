@@ -1,0 +1,41 @@
+textarea {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 25px;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    background-color: transparent;
+    margin-bottom: 1rem;
+    border: none;
+    color: inherit; /* 1 */
+    font: inherit; /* 2 */
+    margin: 0; /* 3 */
+}
+
+textarea:hover {
+    background-color: #eff1f4;
+    border-radius: 2px;
+}
+
+textarea:hour {
+    width: 50%;
+}
+
+textarea:focus {
+    border: 1px solid #33C3F0;
+    outline: 0;
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+    overflow: auto;
+}
+
+textarea {
+
+}

@@ -21,7 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/stretch.css">
+  <link rel="stylesheet" href="css/textarea.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -44,9 +44,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="two-thirds column" style="margin-top: 10%">
-        <h4>Prepare your Day - </h4><h4 id="date" onload="displayDate()"></h4>
-
+      <div class="two-thirds column" style="margin-top: 15%">
+        <!-- This fetches the date, but onload not working properly
+        <h4 id="date" onload="displayDate()"></h4>
+        -->
             <table class="u-full-width">
             <thead>
                 <tr>
@@ -58,7 +59,7 @@
             <tbody>
                 <tr>
                     <td class="cell" onClick="fetch(this);" ><textarea id="hour"></textarea></td>
-                    <td class="cell" onClick="fetch(this);" ><textarea></textarea></td>
+                    <td class="cell" onClick="fetch(this);" ><textarea onclick="fetch(this)"></textarea></td>
                     <td class="cell" onClick="fetch(this);" ><textarea></textarea></td>
                 </tr>
                 <tr>
@@ -115,8 +116,7 @@
             </table>
         </div>
                 <div class="one-third column" style="margin-top: 15%">
-                    <h4>Automatic Options</h4>
-                    <h6>Click in one and then click on a cell to fill</h6>
+                    <h4>Suggestions</h4>
                     <div class="planner-options">
                         <ul style="list-style: none;">
                             <li><code>Attend Class</code>
