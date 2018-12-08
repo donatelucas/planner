@@ -1,5 +1,16 @@
 console.log("See ya, Space Cowboy");
 
+function save() {
+    document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    }, false);
+}
+
 function getDate() {
     var d = new Date();
     var date = d.toString();
@@ -15,7 +26,7 @@ function displayDate() {
 
 // Returns last element input in cell
 function fetch(id) {
-    lastEntry = document.getElementById('input').value;
+    lastEntry = document.getElementById('cell').value;
     entries.push(lastEntry);
     console.log(lastEntry);
     return entries;
