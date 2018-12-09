@@ -8,22 +8,15 @@ output.textContent = localStorage.getItem('planner');
 input.value = localStorage.getItem('planner');
 
 function setItem() {
-
-        localStorage.setItem('planner', input.value);
-        output.textContent = input.value;
-
-
+        //for (var i = 0; i < localStorage.planner.length; i++) {
+            localStorage.setItem('planner', input.value);
+            output.textContent = input.value;
+        //}
+    return output.textContent;
 	// localStorage.setItem('planner', input.value);
     // output.textContent = input.value;
     // return output.textContent;
 }
-
-/*
-function ryuseiken() {
-    output.textContent.forEach(function(setItem) {
-        output.textContent = input.value;
-    }
-}); */
 
 function getDate() {
     var d = new Date();
