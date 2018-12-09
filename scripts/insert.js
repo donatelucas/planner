@@ -1,5 +1,21 @@
 console.log("See ya, Space Cowboy");
 
+var input = document.querySelector('.input');
+var output = document.querySelector('.output');
+var save_button = document.querySelector('.save');
+
+save_button.addEventListener('click', updateOutput);
+
+output.textContent = localStorage.getItem('content');
+input.value = localStorage.getItem('content');
+
+function updateOutput() {
+	localStorage.setItem('content', input.value);
+
+	output.textContent = input.value;
+    console.log(getItem('content'));
+}
+
 function save() {
     document.getElementById("save").addEventListener("click", function ()
     {
@@ -26,7 +42,7 @@ function displayDate() {
 
 // Returns last element input in cell
 function fetch(id) {
-    lastEntry = document.getElementById('cell').value;
+    lastEntry = document.getElementById('1').value;
     entries.push(lastEntry);
     console.log(lastEntry);
     return entries;
