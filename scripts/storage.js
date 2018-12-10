@@ -5,13 +5,13 @@ output.textContent = localStorage.getItem('planner');
 
 function savePlanner() {
     for (i = 0; i < cells; i++) {
-        localStorage.setItem('planner', document.getElementsByTagName('textarea')[i].value);
+        localStorage.setItem(i, document.getElementsByTagName('textarea')[i].value);
     }
+    console.log("Your stuff has been saved.");
 }
 
 function showPlanner() {
     for (i = 0; i < cells; i++) {
-        console.log(localStorage.getItem('planner', i));
-        console.log("Your stuff has been saved.");
+        console.log(localStorage.getItem(i));
     }
 }
