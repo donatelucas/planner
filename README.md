@@ -21,6 +21,7 @@ Download the project and double-click the .html file. Easy peasy.
 Design:
 - Cells invisible when not hovered, visible when hovered ✔
 - Responsive design ✔
+- Cells can be readujusted ✔
 - Reduce size of initial cells
 
 Functionality:
@@ -38,6 +39,10 @@ the content to the localStorage ✔
 
 ## Author
 Lucas Perez
+
+## Contribution
+
+Huge thanks for Lea Verou and hers Stretchy TextAreas, and to Dave Gamache for the Skeleton template.
 
 ## License
 MIT License. Enjoy.
