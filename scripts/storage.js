@@ -1,7 +1,5 @@
 var cells = 33;
-// var input = document.getElementsByTagName('textarea');
-var output = document.querySelector('.content-output');
-output.textContent = localStorage.getItem('planner');
+var output;
 
 function savePlanner() {
     for (i = 0; i < cells; i++) {
@@ -10,8 +8,15 @@ function savePlanner() {
     console.log("Your stuff has been saved.");
 }
 
+for (i = 0; i < cells; i++) {
+    output = localStorage.getItem(i);
+    output.textContent = document.getElementsByTagName('textarea')[i].innerText = output;
+}
+
 function showPlanner() {
     for (i = 0; i < cells; i++) {
         console.log(localStorage.getItem(i));
     }
 }
+
+console.log("See you Space Cowboy...")
