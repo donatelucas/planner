@@ -35,6 +35,7 @@ the content to the localStorage ✔
 - Alarm set up
 - Mobile improvements
 - Discretion method (press Shift+H to hide visibility of cells)
+- Priority Cell. Change priority to a cell with a different style.
 
 
 ## Author
