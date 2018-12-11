@@ -1,5 +1,5 @@
 # Planner
-A front-end, minimalistic planner
+A front-end only, client-side, minimalistic planner
 
 ![A minimalistic planner](https://github.com/donatelucas/planner/blob/master/FirstScreenshot.png)
 
