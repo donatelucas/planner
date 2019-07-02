@@ -25,6 +25,7 @@ Design:
 - [ ] Reduce size of initial cells
 
 Functionality:
+- [ ] Change sidebar to things that are more useful
 - [x] Adjust input cells to amount of text fetched from input
 - [x] Add SAVE button to the sidebar for users to save their work, and send
 the content to the localStorage
@@ -34,8 +35,9 @@ the content to the localStorage
 - [ ] Pagination (weekly / monthly)
 - [ ] Alarm set up
 - [ ] Mobile improvements
-- [ ] Discretion method (press Shift+H to hide visibility of cells)
-- [ ] Priority Cell. Change priority to a cell with a different style.
+- [ ] Discretion method (press Shift+H to hide visibility of all cells)
+- [ ] Priority Cell. Change priority to a cell with a different style color/other
+- [ ] Types of pagination (just lines for writing, or mixed types)
 
 
 ## Author
