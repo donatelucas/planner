@@ -13,29 +13,29 @@ Download the project and double-click the .html file. Easy peasy.
 
 ## ToDo
 
-- Fetch cell input values to variables ✔
-- Save values to localStorage ✔
-- Distribute localStorage values to page when the page is reopened ✔
-- Responsive design ✔
+- [x] Fetch cell input values to variables
+- [x] Save values to localStorage
+- [x] Distribute localStorage values to page when the page is reopened
+- [x] Responsive design
 
 Design:
-- Cells invisible when not hovered, visible when hovered ✔
-- Responsive design ✔
-- Cells can be readujusted ✔
-- Reduce size of initial cells
+- [x] Cells invisible when not hovered, visible when hovered
+- [x] Responsive design
+- [x] Cells can be readujusted
+- [ ] Reduce size of initial cells
 
 Functionality:
-- Adjust input cells to amount of text fetched from input ✔
-- Add SAVE button to the sidebar for users to save their work, and send
-the content to the localStorage ✔
-- Save size of cells readjusted
-- Clear button for ease erasing of the whole planner
-- Display Dates automatically
-- Pagination (weekly / monthly)
-- Alarm set up
-- Mobile improvements
-- Discretion method (press Shift+H to hide visibility of cells)
-- Priority Cell. Change priority to a cell with a different style.
+- [x] Adjust input cells to amount of text fetched from input
+- [x] Add SAVE button to the sidebar for users to save their work, and send
+the content to the localStorage
+- [ ] Save size of cells readjusted
+- [ ] Clear button for ease erasing of the whole planner
+- [ ] Display Dates automatically
+- [ ] Pagination (weekly / monthly)
+- [ ] Alarm set up
+- [ ] Mobile improvements
+- [ ] Discretion method (press Shift+H to hide visibility of cells)
+- [ ] Priority Cell. Change priority to a cell with a different style.
 
 
 ## Author
