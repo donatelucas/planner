@@ -37,6 +37,10 @@ textarea {
     overflow: auto;
 }
 
+#activity-area {
+    width: 100%;
+}
+
 #save {
     margin: auto;
     width: 50%;
