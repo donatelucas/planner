@@ -3,7 +3,7 @@ textarea {
        -moz-appearance: none;
             appearance: none;
     box-sizing: border-box;
-    width: 100%;
+    width: inherit;
     min-height: 34px;
     max-height: 200px;
     padding-top: 6px;
@@ -21,10 +21,6 @@ textarea:hover {
     border-radius: 2px;
 }
 
-textarea:hour {
-    width: 50%;
-}
-
 textarea:focus {
     border: 1px solid #33C3F0;
     outline: 0;
@@ -38,7 +34,11 @@ textarea {
 }
 
 #activity-area {
-    width: 100%;
+    width: 800px;
+}
+
+#table-titles {
+    text-align: center;
 }
 
 #save {
