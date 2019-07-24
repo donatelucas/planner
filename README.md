@@ -38,6 +38,13 @@ the content to the localStorage
 - [ ] Discretion method (press Shift+H to hide visibility of all cells)
 - [ ] Priority Cell. Change priority to a cell with a different style color/other
 - [ ] Types of pagination (just lines for writing, or mixed types)
+- [ ] Diary option
+
+Extended Functionalities / Testing:
+- [ ] Most testing will be procedural. Clicking around and seeing if things are working as they should. A thorough list of testing will be made after
+- [ ] Some of the testing will be made through testing units, specially regarding the data moving around, network safety, user safety, etc
+- [ ] Will add Heroku or other service to add an online service capability for it, since the plan is to use Angular to ease out mobile/desktop compatibility
+- [ ] The addition of the server will provide online capabilities for it, and cross-compatibility browser possibilities. But still I would like to keep just local storage as an option in case it's something users desire for safety purposes
 
 
 ## Author
