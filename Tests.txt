@@ -1,0 +1,6 @@
+All tests were done with simple procedures:
+
+- Clicking and pulling/pushing cells to see if they would resize properly
+- Using dev tools on Chrome to see if in cellphones they would display properly
+- Checking if the saved values would still be there in case the browser was closed when the button Save was pressed to save things
+- Resizing the browser window to check if the sizes were distributing properly as intended in my stylesheets
